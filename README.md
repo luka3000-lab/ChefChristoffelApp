@@ -1,5 +1,4 @@
 #  Chef Christoffel Menu App
-### *Part 2 – Adding the Logic*
 
 ---
 
@@ -15,6 +14,7 @@ This React Native + Expo application acts as a **digital menu system**, allowing
 |----------|--------------|
 | **Add Dish Screen** | Enter *Dish Name*, *Description*, select *Course* (Starter/Main/Dessert), and *Price*. |
 | **Home Screen** | Displays total dishes and average price per course; buttons for *Add Dish*, *View Menu*, and *Summary*. |
+| **Guest Filter Screen** | Provide a screen that shows menu items filtered by course (Starters/Mains/Desserts). |
 | **View Menu Screen** | Lists all dishes with filter options by course and delete functionality. |
 | **Summary Screen** | Shows totals and average prices per course for quick overview. |
 | **Dynamic Data** | Uses temporary state (no hard-coded or persistent data). |
@@ -31,6 +31,14 @@ This React Native + Expo application acts as a **digital menu system**, allowing
 - Visual Studio Code / Cloud Labs Virtual Studio  
 
 ---
+
+## Change Log
+All changes since Part 2 are documented in `CHANGELOG.md`. Highlights:
+- Add/Remove moved to dedicated Add Dish screen.
+- Menu stored in array via MenuContext.
+- Home screen shows average price per course.
+- Guest Filter screen added.
+
 
 ##  How to Run the App
 
